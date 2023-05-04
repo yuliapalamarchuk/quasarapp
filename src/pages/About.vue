@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <h5>About</h5>
+    <h5> <b>About</b> </h5>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet unde cumque
       deleniti repellat. Explicabo ullam culpa sequi autem neque architecto aut

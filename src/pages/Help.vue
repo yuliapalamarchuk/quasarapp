@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <h5>Help</h5>
+    <h5> <b>Help</b> </h5>
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum eum rerum
       accusantium sed aliquam numquam distinctio nihil! Minus quasi, accusamus

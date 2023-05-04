@@ -37,7 +37,7 @@
               <q-icon name="list" />
             </q-item-section>
 
-            <q-item-section> TodoList </q-item-section>
+            <q-item-section> <b>TodoList</b> </q-item-section>
           </q-item>
 
           <q-item to="/help" exact clickable v-ripple>
@@ -45,15 +45,15 @@
               <q-icon name="help" />
             </q-item-section>
 
-            <q-item-section> Help </q-item-section>
+            <q-item-section>  <b>Help </b> </q-item-section>
           </q-item>
-          
+
           <q-item to="/contacts" exact clickable v-ripple>
             <q-item-section avatar>
               <q-icon name="contacts" />
             </q-item-section>
 
-            <q-item-section> Contacts </q-item-section>
+            <q-item-section> <b>Contacts</b>  </q-item-section>
           </q-item>
 
           <q-item to="/about" exact clickable v-ripple>
@@ -61,7 +61,7 @@
               <q-icon name="link" />
             </q-item-section>
 
-            <q-item-section> About </q-item-section>
+            <q-item-section> <b>About</b> </q-item-section>
           </q-item>
         </q-list>
       </q-scroll-area>
