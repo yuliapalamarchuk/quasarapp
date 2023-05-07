@@ -45,7 +45,7 @@
               <q-icon name="help" />
             </q-item-section>
 
-            <q-item-section>  <b>Help </b> </q-item-section>
+            <q-item-section> <b>Help </b> </q-item-section>
           </q-item>
 
           <q-item to="/contacts" exact clickable v-ripple>
@@ -53,7 +53,7 @@
               <q-icon name="contacts" />
             </q-item-section>
 
-            <q-item-section> <b>Contacts</b>  </q-item-section>
+            <q-item-section> <b>Contacts</b> </q-item-section>
           </q-item>
 
           <q-item to="/about" exact clickable v-ripple>
@@ -89,6 +89,7 @@
 import { defineComponent, ref } from "vue";
 import EssentialLink from "components/EssentialLink.vue";
 import { date } from "quasar";
+import "animate.css";
 
 const linksList = [
   {
