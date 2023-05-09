@@ -42,6 +42,11 @@
         </q-item-section>
       </q-item>
     </q-list>
+    <div 
+    v-if="!tasks.length"
+    class="no-task absolute-center">
+      <div class="text-h4 text-primary text-center">No tasks</div>
+    </div>
   </q-page>
 </template>
 
@@ -50,12 +55,7 @@ export default {
   data() {
     return {
       newTask: "",
-      tasks: [
-        {
-          title: "hello",
-          done: false,
-        },
-      ],
+      tasks: [],
     };
   },
   methods: {
